@@ -1,0 +1,174 @@
+/*Header design (title,subtitle,instructions)*/
+html, body {
+    height: 100%;
+}
+
+.title {
+    max-width: 60%;
+    width:100%;
+    margin: 2%;
+    font-size: 2em;
+    margin-left:20%;
+    text-align:center;
+    padding: 10px;
+    border-bottom: 2px solid darkgreen;
+    color:darkgray;
+    font-weight:bold;
+}
+
+.subtitle {
+    max-width: 30%;
+    width:100%;
+    margin: 3%;
+    font-size: 1.4em;
+    margin-left:35%;
+    text-align:center;
+    padding: 10px;
+    background-color:darkseagreen;
+    color:white;
+}
+
+.instructions {
+    max-width: 80%;
+    width:100%;
+    margin: 2%;
+    margin-left:10%;
+    font-size: 1.2em;
+    text-align:center;
+    padding: 10px;
+    color:darkgreen;
+    font-weight:bold;
+}
+
+.methodology {
+    max-width: 45%;
+    width:100%;
+    margin: 2%;
+    margin-left:27%;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color:darkseagreen;
+    color:white;
+    
+}
+
+/*BUTTONS GALLERY */
+
+.cities {
+    max-width: 40%;
+    width: 100%;
+    margin: 2% 5%;
+    position: absolute;
+    
+}
+
+button { 
+    background-color: lightgray;
+    padding: 20px;
+    border-radius:50px;
+    outline:none;
+    border:none;
+    color:black;
+    margin:1%;
+    font-size: 0.8em;
+    font-weight:bold;
+}
+
+button:hover
+{
+    background-color: darkseagreen;
+}
+button:focus 
+{
+    background-color:darkseagreen;
+}
+
+/*RESULTS GALLERY*/
+
+.output {
+    width: 40%;
+    height: 50%;
+    border: 2px solid darkseagreen;
+    margin: 5% 50%;
+    padding:40px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.city-info {
+    font-size: 1.5em;
+    color: gray;
+    margin-top: 50px;
+}
+
+.city {
+    font-size: 2.5em;
+    color: gray;
+    border-bottom: 2px solid darkseagreen;
+    margin-top: 50px;
+}
+
+.image-gallery {
+    margin-top: 30px;
+}
+
+.cigg-img {
+
+    width: 5%;
+}
+
+/*MOBILE RESPONSIVE*/
+@media only screen and (max-width: 600px) {
+    .title {
+        max-width: 60%;
+        font-size: 1.6em;
+        margin-left: 15%;
+        
+    }
+   
+    .subtitle {
+        max-width: 60%;
+        font-size: 1.2em;
+        margin-left: 15%;
+        
+    }
+
+    .instructions {
+        margin-left:5%;
+         font-size: 1.0em;
+        
+     }
+
+     .methodology {
+        max-width: 70%; 
+        margin-left:12%;
+       
+    }
+    
+    .cities {
+        max-width: 90%;
+        position: static;
+        margin: 2% 7%;
+    }
+    button {
+        
+        padding: 10px;
+        font-size: 0.7em;
+        
+    }
+
+    .output {
+        width: 60%;
+        margin: 5% 10%;
+        position: static;
+    }
+
+    .city {
+        font-size:1.7em;
+    }
+
+    .cigg-img {
+        width: 10%;
+    }
+  }
